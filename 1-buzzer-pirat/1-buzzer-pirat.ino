@@ -1,3 +1,6 @@
+// Der Buzzer Pirat
+// Bitte lest die readme.md für Informationen und Bilder.
+
 // Pin-Definitionen
 const uint8_t BUZZER_PIN = 8; // Buzzer an Pin 8
 const uint8_t LED_PIN_1 = 9;  // LED 1 an Pin 9

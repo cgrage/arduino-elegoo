@@ -2,6 +2,8 @@
 
 Spielt eine vereinfachte Version von "He is a Pirate" (Hans Zimmer) über den Buzzer auf einem Arduino/Elegoo. Optional blinken zwei LEDs passend zum Takt.
 
+![Noten](../bilder/1-1.jpg)
+
 # Komponenten
 
 - Elegoo / Arduino, Steckbrett, Jumper-Kabel
@@ -15,9 +17,13 @@ Spielt eine vereinfachte Version von "He is a Pirate" (Hans Zimmer) über den Bu
 - LED 1 (opt): Langes Bein → Pin 9, kurzes Bein → Widerstand → GND
 - LED 2 (opt): Langes Bein → Pin 10, kurzes Bein → Widerstand → GND
 
+![Schaltung](../bilder/1-2.jpg)
+
 # Anpassungen
 
 - Tempo ändern: Im Sketch gibt es eine Variable für die Dauer/Beats.
 - Nach jedem Ton wird eine Pause von 20ms gemacht. Das kann angepasst werden (in spieleTon)
 
+# So sieht es aus
 
+![Im Betrieb](../bilder/1-3.jpg)
